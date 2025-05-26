@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kagan\\source\\repos\\xmlParsing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC2D413-AA6E-4124-9E3A-C823F010704D}|xmlParsing\\xmlParsing.csproj|c:\\users\\kagan\\source\\repos\\xmlparsing\\xmlparsing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFC2D413-AA6E-4124-9E3A-C823F010704D}|xmlParsing\\xmlParsing.csproj|solutionrelative:xmlparsing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC2D413-AA6E-4124-9E3A-C823F010704D}|xmlParsing\\xmlParsing.csproj|c:\\users\\kagan\\source\\repos\\xmlparsing\\xmlparsing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFC2D413-AA6E-4124-9E3A-C823F010704D}|xmlParsing\\xmlParsing.csproj|solutionrelative:xmlparsing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kagan\\Desktop\\deneme.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kagan\\source\\repos\\xmlParsing\\xmlParsing\\Form1.cs",
+              "RelativeDocumentMoniker": "xmlParsing\\Form1.cs",
+              "ToolTip": "C:\\Users\\kagan\\source\\repos\\xmlParsing\\xmlParsing\\Form1.cs",
+              "RelativeToolTip": "xmlParsing\\Form1.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAiwBIBAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:28:09.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "deneme.xml",
+              "DocumentMoniker": "C:\\Users\\kagan\\Desktop\\deneme.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\deneme.xml",
+              "ToolTip": "C:\\Users\\kagan\\Desktop\\deneme.xml",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\deneme.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-26T19:28:30.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kagan\\source\\repos\\xmlParsing\\xmlParsing\\Form1.cs",
+              "RelativeDocumentMoniker": "xmlParsing\\Form1.cs",
+              "ToolTip": "C:\\Users\\kagan\\source\\repos\\xmlParsing\\xmlParsing\\Form1.cs [Design]",
+              "RelativeToolTip": "xmlParsing\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:27:15.735Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

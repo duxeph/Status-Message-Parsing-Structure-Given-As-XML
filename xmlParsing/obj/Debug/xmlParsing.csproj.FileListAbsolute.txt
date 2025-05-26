@@ -1,0 +1,11 @@
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.csproj.AssemblyReference.cache
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.Properties.Resources.resources
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.csproj.GenerateResource.cache
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.csproj.CoreCompileInputs.cache
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\bin\Debug\xmlParsing.exe.config
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\bin\Debug\xmlParsing.exe
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\bin\Debug\xmlParsing.pdb
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.exe
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.pdb
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.exe.config
+C:\Users\kagan\source\repos\xmlParsing\xmlParsing\obj\Debug\xmlParsing.Form1.resources

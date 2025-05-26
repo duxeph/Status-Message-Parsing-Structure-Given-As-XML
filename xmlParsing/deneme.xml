@@ -1,0 +1,56 @@
+<fields>
+    <cbit name="power_status" offset="0" length="1">
+        <sub name="primary_power" range_mask="F0" visible="true" fault="none" unit="watts"/>
+        <sub name="secondary_power" range_mask="0F" mbps_10="true" scale="linear"/>
+        <sub name="backup_power" range_mask="C0" MasterVisible="false" error_code="P01"/>
+        <sub name="power_alert" range_mask="30" fault="overvolt" visible="true"/>
+    </cbit>
+    <cbit name="system_control" offset="1" length="2">
+        <sub name="control_mode" range_mask="FF00" visible="true" unit="mode"/>
+        <sub name="error_flag" range_mask="0080" fault="critical" error_code="E01"/>
+        <sub name="reset_bit" range_mask="0040" MasterVisible="true"/>
+    </cbit>
+    <cbit name="sensor_data" offset="3" length="4">
+        <sub name="temp_sensor" range_mask="FFFF0000" unit="celsius" visible="true"/>
+        <sub name="pressure_sensor" range_mask="0000FFFF" unit="kpa" fault="calibration"/>
+        <sub name="status_bit" range_mask="80000000" MasterVisible="true" error_code="S01"/>
+        <sub name="aux_sensor" range_mask="00FF0000" scale="logarithmic" visible="false"/>
+        <sub name="humidity_sensor" range_mask="0000FF00" unit="percent" fault="none"/>
+    </cbit>
+    <cbit name="communication" offset="7" length="3">
+        <sub name="tx_rate" range_mask="FFF000" mbps_10="true" visible="true"/>
+        <sub name="rx_rate" range_mask="000FFF" mbps_10="true" unit="mbps"/>
+        <sub name="link_status" range_mask="800000" fault="link_down" error_code="L01"/>
+    </cbit>
+    <cbit name="diagnostics" offset="10" length="1">
+        <sub name="diag_code" range_mask="FF" visible="true" fault="none" MasterVisible="true"/>
+        <sub name="diag_flag" range_mask="80" error_code="D01" scale="binary"/>
+    </cbit>
+    <cbit name="memory_status" offset="11" length="2">
+        <sub name="mem_usage" range_mask="FF00" unit="percent" visible="true"/>
+        <sub name="mem_error" range_mask="00F0" fault="parity" error_code="M01"/>
+        <sub name="mem_free" range_mask="000F" scale="linear" MasterVisible="false"/>
+    </cbit>
+    <cbit name="large_field" offset="13" length="9">
+        <sub name="data_block" range_mask="FFFFFFFFFFFFFFFFFFFF" visible="false" fault="timeout"/>
+        <sub name="meta_data" range_mask="0000000000000FFFF" unit="bytes" scale="linear"/>
+        <sub name="control_bits" range_mask="F0000000000000000" MasterVisible="true" error_code="C01"/>
+        <sub name="status_code" range_mask="0FFFF000000000000" visible="true" fault="none"/>
+        <sub name="aux_data" range_mask="0000FFFF000000000" unit="raw" scale="none"/>
+        <sub name="error_bits" range_mask="80000000000000000" fault="critical" error_code="E02"/>
+    </cbit>
+    <cbit name="battery_status" offset="22" length="2">
+        <sub name="battery_level" range_mask="FF00" unit="percent" visible="true"/>
+        <sub name="battery_fault" range_mask="00F0" fault="low" error_code="B01"/>
+        <sub name="charge_status" range_mask="000F" MasterVisible="true" scale="binary"/>
+    </cbit>
+    <cbit name="network_status" offset="24" length="3">
+        <sub name="signal_strength" range_mask="FFF000" unit="dbm" visible="true"/>
+        <sub name="network_error" range_mask="000F00" fault="dropped" error_code="N01"/>
+        <sub name="connection_state" range_mask="0000FF" scale="binary" MasterVisible="false"/>
+    </cbit>
+    <cbit name="aux_control" offset="27" length="1">
+        <sub name="aux_flag" range_mask="F0" visible="true" fault="none"/>
+        <sub name="aux_code" range_mask="0F" error_code="A01" MasterVisible="true"/>
+    </cbit>
+</fields>
